@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sheik Muzammil - Resume</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 0;
+        }
+        .container {
+            max-width: 800px;
+            background: white;
+            padding: 20px;
+            margin: 20px auto;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            border-radius: 8px;
+        }
+        h1, h2 {
+            text-align: center;
+            color: #333;
+        }
+        .contact, .profile, .education, .skills, .leadership, .awards, .languages {
+            margin-bottom: 20px;
+            padding: 10px;
+            border-left: 4px solid #007BFF;
+            background: #f9f9f9;
+        }
+        ul {
+            list-style-type: none;
+            padding: 0;
+        }
+        ul li {
+            padding: 5px 0;
+        }
+        .contact p {
+            font-size: 18px;
+            text-align: center;
+        }
+        .contact a {
+            color: #007BFF;
+            text-decoration: none;
+        }
+        .btn {
+            display: block;
+            width: 100%;
+            padding: 10px;
+            background: #007BFF;
+            color: white;
+            text-align: center;
+            font-size: 18px;
+            margin-top: 10px;
+            border: none;
+            cursor: pointer;
+            border-radius: 5px;
+        }
+        .btn:hover {
+            background: #0056b3;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <h1>S. SHEIKMUZAMMIL</h1>
+        <h2>Student</h2>
+
+        <div class="contact">
+            <p>📞 7010412832</p>
+            <p>✉️ <a href="mailto:Sheikmuzzamil2005@gmail.com">Sheikmuzzamil2005@gmail.com</a></p>
+        </div>
+
+        <div class="profile">
+            <h2>Profile</h2>
+            <p>Sheik Muzammil is a curious and dedicated student with a passion for computer science. Always eager to explore new technologies, thrives as a good learner, constantly seeking to develop skills and deepen knowledge in programming and technology-driven projects.</p>
+        </div>
+
+        <div class="education">
+            <h2>Education</h2>
+            <p><strong>University</strong> (2023 - 2026)</p>
+            <p><strong>B.Sc (Computer Science)</strong></p>
+        </div>
+
+        <div class="skills">
+            <h2>Skills</h2>
+            <ul>
+                <li><strong>Active Listening & Collaboration:</strong> Strong listener, capable of understanding diverse perspectives and building meaningful relationships with team members.</li>
+                <li><strong>Technical Proficiency:</strong> Well-versed in programming and problem-solving in software development contexts.</li>
+                <li><strong>Event Coordination:</strong> Proven ability to organize departmental activities and events, balancing multiple responsibilities effectively.</li>
+            </ul>
+        </div>
+
+        <div class="leadership">
+            <h2>Leadership</h2>
+            <ul>
+                <li><strong>Computer Science Department Sports Coordinator (Second Year):</strong> Organized and conducted programs.</li>
+                <li><strong>System Coordinator:</strong> Actively contributed to social service initiatives and community development projects.</li>
+            </ul>
+        </div>
+
+        <div class="awards">
+            <h2>Awards & Certifications</h2>
+            <ul>
+                <li>Code Hack-thon</li>
+                <li>English Communication</li>
+            </ul>
+        </div>
+
+        <div class="languages">
+            <h2>Languages</h2>
+            <ul>
+                <li>English</li>
+                <li>Tamil</li>
+            </ul>
+        </div>
+
+        <button class="btn" onclick="downloadResume()">Download Resume</button>
+    </div>
+
+    <script>
+        function downloadResume() {
+            alert("Resume download feature coming soon!");
+        }
+    </script>
+
+</body>
+</html>
